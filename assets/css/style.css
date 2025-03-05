@@ -1,1 +1,7 @@
 @import 'general.css';
+
+@import 'composants/icones.css';
+@import 'composants/menu.css';
+@import 'composants/recherche.css';
+
+@import 'layouts/navigation.css';

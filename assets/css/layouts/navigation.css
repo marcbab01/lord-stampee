@@ -1,0 +1,25 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    background-color: #244a73;
+}
+
+.navigation a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #f5f2e9;
+}
+
+.navigation__barre-de-recherche {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.navigation__icones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

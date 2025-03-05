@@ -1,0 +1,11 @@
+.icones {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+    margin: 0 20px;
+}
+
+.icones__li {
+    flex: 1;
+    width: 25px;
+}

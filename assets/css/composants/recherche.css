@@ -1,0 +1,17 @@
+.barre-de-recherche {
+    flex: 1;
+    outline: none;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 20vw;
+    height: 25px;
+    padding: 10px;
+}
+
+.barre-de-recherche__btn {
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: white;
+    height: 45px;
+    padding: 10px;
+}
