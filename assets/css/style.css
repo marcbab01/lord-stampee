@@ -4,4 +4,5 @@
 @import 'composants/menu.css';
 @import 'composants/recherche.css';
 
+@import 'layouts/entete.css';
 @import 'layouts/navigation.css';

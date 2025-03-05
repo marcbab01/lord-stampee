@@ -1,8 +1,9 @@
 .icones {
     display: flex;
-    gap: 16px;
+    gap: 30px;
     list-style-type: none;
-    margin: 0 20px;
+    margin-left: 50px;
+    margin-right: 5vw;
 }
 
 .icones__li {

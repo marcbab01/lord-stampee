@@ -1,16 +1,22 @@
 .menu {
     display: flex;
     list-style-type: none;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #244a73;
+}
+
+.menu__li {
+    padding: 14px 0;
 }
 
 .menu__a {
-    padding: 19px;
     text-decoration: none;
-    transition-duration: 150ms;
+    padding: 14px 22px;
+    transition-duration: 300ms;
+    color: #fffff0;
 }
 
 .menu__a:hover {
-    background-color: #062241;
+    background-color: #122539;
+    color: #ffffff;
 }
