@@ -1,0 +1,14 @@
+.filtre__contenu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.filtre__contenu>label {
+    display: flex;
+    gap: 10px;
+}
+
+.filtre__checkbox {
+    margin-left: auto;
+}

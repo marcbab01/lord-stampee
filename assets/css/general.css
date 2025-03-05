@@ -7,6 +7,6 @@ img {
     width: 100%;
 }
 
-a {
+h2, a, p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
