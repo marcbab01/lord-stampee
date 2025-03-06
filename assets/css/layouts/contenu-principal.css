@@ -1,3 +1,5 @@
 .contenu-principal {
     display: flex;
+    margin: 0 5vw 0 5vw;
+    justify-content: center;
 }

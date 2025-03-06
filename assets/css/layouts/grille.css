@@ -1,6 +1,6 @@
 .grille {
     margin: 50px;
-    width: 40vw;
+    width: 50vw;
     display: grid;
     grid-template-columns: repeat(auto-fit, 200px);
     grid-gap: 50px;
