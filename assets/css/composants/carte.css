@@ -1,9 +1,8 @@
 .carte {
-    max-width: 300px;
-    max-height: max-content;
+    max-height: fit-content;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .carte>h2 {
@@ -17,7 +16,7 @@
 .carte__img {
     padding: 20px;
     background-color: #EDE4E3;
-    border-radius: 10px 10px 0 0;
+    border-radius: 5px 5px 0 0;
 }
 
 .carte__btn {
