@@ -1,0 +1,18 @@
+.colonne>ul {
+    list-style-type: none;
+}
+
+.colonne h2 {
+    font-size: medium;
+    color: #c9a66b;
+    padding-bottom: 10px;
+}
+
+.colonne li {
+    font-size: small;
+    padding: 5px;
+}
+
+.colonne a {
+    color: #f5f2e9;
+}

@@ -38,6 +38,30 @@
         </div>
     </nav>
     <main>
+        <header class="entete _contenu-principal">
+            <h1 class="entete__titre">Gallerie des encans</h1>
+            <form class="entete__triage">
+                <label for="tri">Triez par : 
+                    <select name="pays" id="tri" class="selection-triage">
+                        <option value="" selected disabled>choissisez un type</option>
+                        <option value="asc-alpha">Ordre A-Z</option>
+                        <option value="desc-alpha">Ordre Z-A</option>
+                        <option value="asc-prix">Prix croissant</option>
+                        <option value="desc-prix">Prix décroissant</option>
+                        <option value="asc-temps">Temps restant le plus court</option>
+                        <option value="desc-temps">Temps restant le plus long</option>
+                        <option value="asc-date">Date émission plus vieux</option>
+                        <option value="desc-date">Date émission plus récent</option>
+                    </select>
+                </label>
+                <label for="mode-carte">
+                    <a href="#"><img src="assets/img/image.png" alt="" style="width: 20px;"></a>
+                </label>
+                <label for="mode-liste">
+                    <a href="#"><img src="assets/img/menu.png" alt="" style="width: 20px;"></a>
+                </label>
+            </form>
+        </header>
         <div class="contenu-principal">
             <aside class="filtres">
                 <div class="filtre">
@@ -269,10 +293,90 @@
                         <div class="carte__btn"><a href="" class="carte__btn">Miser</a></div>
                     </div>
                 </div>
+                <div class="pages">
+                    <a href="#"><strong>1</strong></a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#"><img src="assets/img/right-arrow.png" style="width: 16px; height: 16px;" alt=""></a>
+                </div>
             </div>
-            <aside class="banniere"></aside>
+            <aside class="banniere">
+            </aside>
         </div>
     </main>
-    <footer class="pieds-de-page"></footer>
+    <footer class="pieds-de-page">
+        <div class="pieds-de-page__contenu">
+            <div class="colonne">
+                <h2>Acheter</h2>
+                <ul>
+                    <li><a href="#">État-Unis</a></li>
+                    <li><a href="#">Afrique</a></li>
+                    <li><a href="#">Asie</a></li>
+                    <li><a href="#">Europe</a></li>
+                    <li><a href="#">Russie</a></li>
+                    <li><a href="#">Commonwealth Britannique</a></li>
+                    <li><a href="#">Monde entier</a></li>
+                </ul>
+            </div>
+            <div class="colonne">
+                <h2>Services et ressources</h2>
+                <ul>
+                    <li><a href="#">Vendre vos timbre</a></li>
+                    <li><a href="#">Faire estimer vos timbres</a></li>
+                    <li><a href="#">Contacter un spécialiste</a></li>
+                    <li><a href="#">Embaucher un homme de milieu</a></li>
+                    <li><a href="#">Évènement caritatif</a></li>
+                    <li><a href="#">Magasins</a></li>
+                    <li><a href="#">Prochains évenements</a></li>
+                </ul>
+            </div>
+            <div class="colonne">
+                <h2>Centre d'aide</h2>
+                <ul>
+                    <li><a href="#">Profil</a></li>
+                    <li><a href="#">Comment faire une offre</a></li>
+                    <li><a href="#">Suivre une enchère</a></li>
+                    <li><a href="#">Trouver l'enchère désirée</a></li>
+                </ul>
+            </div>
+            <div class="colonne">
+                <h2>Contactez-nous</h2>
+                <ul>
+                    <li><a href="#">Angleterre</a></li>
+                    <li><a href="#">Amérique du Nord</a></li>
+                    <li><a href="#">Amérique du Sud</a></li>
+                    <li><a href="#">Europe</a></li>
+                    <li><a href="#">Australie</a></li>
+                    <li><a href="#">Contacter le webmestre</a></li>
+                </ul>
+            </div>
+            <div class="colonne">
+                <h2>Termes et conditions</h2>
+                <ul>
+                    <li><a href="#">Conditions d'utilisations</a></li>
+                    <li><a href="#">Politique de confidentialité</a></li>
+                </ul>
+            </div>
+            <div class="colonne">
+                <h2>Newsletters</h2>
+                <form action="index.html">
+                    <label for="newsletters">
+                        <input type="text" name="newsletters" id="newsletters" placeholder="Entrez votre email"
+                            class="input-selection">
+                    </label>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <span>© Design réalisé en collaboration par Patricia, Marc-Olivier et Mathieu</span>
+            <div class="icones-bas">
+                <img src="assets/img/facebook.png" style="width: 30px; height: 30px;" alt="facebook">
+                <img src="assets/img/instagram.png" style="width: 30px; height: 30px;" alt="instagram">
+                <img src="assets/img/youtube.png" style="width: 30px; height: 30px;" alt="youtube">
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

@@ -3,7 +3,7 @@
 }
 
 .grille__contenu {
-    margin: 50px;
+    margin: 30px;
     display: grid;
     grid-template-columns: repeat(auto-fit, 250px);
     grid-gap: 50px;

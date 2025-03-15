@@ -1,13 +1,16 @@
 @import 'general.css';
 
 @import 'composants/carte.css';
+@import 'composants/colonne.css';
 @import 'composants/filtre.css';
 @import 'composants/icones.css';
 @import 'composants/menu.css';
+@import 'composants/pages.css';
 @import 'composants/recherche.css';
 
 @import 'layouts/contenu-principal.css';
 @import 'layouts/entete.css';
 @import 'layouts/filtres.css';
+@import 'layouts/footer.css';
 @import 'layouts/grille.css';
 @import 'layouts/navigation.css';
